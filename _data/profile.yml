@@ -1,49 +1,34 @@
 primary_name: "Rui Cheng"
 secondary_name: ""
-navbar_name: "Rui Cheng's Home Page"
+navbar_name: "Rui Cheng"
 
 positions:
-  - '<span class="no-break"><img src="assets/images/badges/your_school.png" alt="Your University" class="inline-badge"/></span> Master Student / Ph.D. Student, Your University'
+  - "B.Eng. Student, School of Information and Communication Engineering, Beijing University of Posts and Telecommunications"
+  - "2022 - 2026"
 
-email: "your_email@example.com"
+email: ""
 gscholar: ""
 github: ChengRui310
 twitter: ""
-resume: assets/cv/CV_RuiCheng.pdf
+resume: ""
 xiaohongshu: ""
 
 short_bio: >-
-  I am Rui Cheng, currently a student/researcher at <a href="https://www.your-university.edu/" target="_blank" rel="noopener">Your University</a>. My research interests include multimodal learning, large language models, video understanding, and continual learning. My current work focuses on continual Video-MLLM adaptation over evolving domains, parameter-efficient adaptation, and expert routing mechanisms.
+  I am Rui Cheng, an undergraduate student at the School of Information and Communication Engineering, Beijing University of Posts and Telecommunications, from 2022 to 2026. My research interests include continual learning and multimodal large language models.
 
-show_portrait: true
-portrait_url: assets/images/photos/your_photo.jpg
-portrait_caption: >-
-  Welcome to my homepage!
+show_portrait: false
+portrait_url: ""
+portrait_caption: ""
 
 education:
-- name: Your University
-  logo: assets/images/badges/your_school.png
-  position: M.S. / Ph.D. in Your Major
-  date: Sep. 202X - Now
-- name: Your Previous University
-  logo: assets/images/badges/your_previous_school.png
-  position: B.S. in Your Major
-  date: Sep. 20XX - Jul. 20XX
+  - name: Beijing University of Posts and Telecommunications
+    logo: ""
+    position: B.Eng. in Information and Communication Engineering
+    date: 2022 - 2026
 
-experience:
-- name: Your Lab / Institution
-  logo: assets/images/badges/your_lab.png
-  position: Research Intern / Research Assistant
-  date: 20XX - Now
-
-awards:
-- name: Your Award 1
-  date: 202X
-- name: Your Award 2
-  date: 202X
-
-service:
-- name: ""
+experience: []
+awards: []
+service: []
 
 footer_text: >-
-  Copyright © 2026 <a href="https://github.com/ChengRui310" target="_blank">Rui Cheng</a>. All Rights Reserved.
+  Copyright &copy; 2026 <a href="https://github.com/ChengRui310" target="_blank" rel="noopener">Rui Cheng</a>. All Rights Reserved.
