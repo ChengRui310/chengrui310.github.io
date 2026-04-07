@@ -16,9 +16,9 @@ xiaohongshu: ""
 short_bio: >-
   I am Rui Cheng, an undergraduate student at the School of Information and Communication Engineering, Beijing University of Posts and Telecommunications, from 2022 to 2026. My research interests include continual learning and multimodal large language models.
 
-show_portrait: false
+show_portrait: true
 portrait_url: ""
-portrait_caption: ""
+portrait_caption: "Profile photo placeholder"
 
 education:
   - name: Beijing University of Posts and Telecommunications

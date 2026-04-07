@@ -16,17 +16,21 @@
           </div>
           {% if site.data.profile.show_portrait %}
           <div class="col-md-auto d-none d-md-block">
-            <figure class="figure">
+            {% if site.data.profile.portrait_url and site.data.profile.portrait_url != "" %}
+            <figure class="figure mb-0">
               <img
                 src="{{ site.data.profile.portrait_url }}"
                 class="figure-img img-fluid img-thumbnail"
-                style="height: 200px;"
-                data-toggle="tooltip"
-                data-placement="top"
+                style="height: 200px; width: 200px; object-fit: cover;"
                 title="{{ site.data.profile.portrait_caption }}"
+                alt="{{ site.data.profile.primary_name }}"
               >
-              <figcaption class="figure-caption text-right"></figcaption>
             </figure>
+            {% else %}
+            <div class="profile-avatar-placeholder" aria-label="Profile photo placeholder">
+              <i class="fas fa-user"></i>
+            </div>
+            {% endif %}
           </div>
           {% endif %}
         </div>
@@ -63,6 +67,21 @@
         }
         .profile-chip i {
           margin-right: .4rem;
+        }
+        .profile-avatar-placeholder {
+          width: 200px;
+          height: 200px;
+          border-radius: 18px;
+          background: linear-gradient(145deg, #eeeeee, #d9d9d9);
+          border: 1px solid rgba(0,0,0,.08);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #8a8f98;
+          box-shadow: inset 0 1px 0 rgba(255,255,255,.6);
+        }
+        .profile-avatar-placeholder i {
+          font-size: 4rem;
         }
         </style>
 
