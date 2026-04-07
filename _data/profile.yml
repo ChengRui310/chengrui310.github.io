@@ -18,7 +18,7 @@ short_bio: >-
 show_portrait: true
 portrait_url: assets/images/photos/your_photo.jpg
 portrait_caption: >-
-  Hi, welcome to my homepage!
+  Welcome to my homepage!
 
 education:
 - name: Your University
