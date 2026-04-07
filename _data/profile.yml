@@ -1,89 +1,49 @@
 primary_name: "Rui Cheng"
 secondary_name: ""
-navbar_name: "Rongsheng Wang's Home Page"
+navbar_name: "Rui Cheng's Home Page"
 
 positions:
-  - '<span class="no-break"><img src="assets/images/badges/cuhk-sz.png" alt="The Chinese University of Hong Kong, Shenzhen" class="inline-badge"/></span> Ph.D., The Chinese University of Hong Kong, Shenzhen (2025)'
+  - '<span class="no-break"><img src="assets/images/badges/your_school.png" alt="Your University" class="inline-badge"/></span> Master Student / Ph.D. Student, Your University'
 
-email: "wang.rongsheng@outlook.com"
-gscholar: SSaBaioAAAAJ
-# sscholar: Rongsheng-Wang/2261313297
-github: wangrongsheng
-twitter: RongshengWang
-# wechat_qrcode: assets/images/etc/wechat.jpg
-# wechat_prompt: >-
-#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
-# zhihu: wang-rong-sheng-74
-resume: assets/cv/Resume_RongshengWang.pdf
-# linkedin: your-linked-in-id
-# orcid: 0000-0000-0000-0000
-xiaohongshu: 5fa2663000000000010068e2
+email: "your_email@example.com"
+gscholar: ""
+github: ChengRui310
+twitter: ""
+resume: assets/cv/CV_RuiCheng.pdf
+xiaohongshu: ""
 
 short_bio: >-
-  I am Rongsheng Wang (<ruby>王<rt>Wáng</rt>荣<rt>Róng</rt>胜<rt>Shèng</rt></ruby><button class="speak-btn" data-name="王荣胜">🔊</button>), currently pursuing my PhD at <a href="https://www.cuhk.edu.cn/zh-hans" target="_blank" rel="noopener">The Chinese University of Hong Kong, Shenzhen</a>. My primary research interests lie in Large Language Models (LLMs) and Multimodal LLMs (MLLMs). I love open source and sharing useful knowledge with everyone. I have been featured in <a href="https://china-ranking.32k.site/ ">China-Ranking</a> and recognized as an outstanding individual developer on GitHub in China.</br></br> I actively contribute to the open-source community on <a href="https://github.com/WangRongsheng">👾GitHub</a> <img alt="GitHub User's stars" src="https://img.shields.io/github/stars/wangrongsheng?style=flat-square">, where I’ve led or contributed to several notable projects, including <a href="https://github.com/kaixindelele/ChatPaper/stargazers" target="_blank">ChatPaper <img src="https://img.shields.io/github/stars/kaixindelele/ChatPaper?color=orange" alt="GitHub Stars"></a>, <a href="https://github.com/WangRongsheng/XrayGLM/stargazers" target="_blank">XrayGLM <img src="https://img.shields.io/github/stars/WangRongsheng/XrayGLM?color=orange" alt="GitHub Stars"></a>, <a href="https://github.com/WangRongsheng/awesome-LLM-resourses/stargazers" target="_blank">Awesome-LLM-Resources <img src="https://img.shields.io/github/stars/WangRongsheng/awesome-LLM-resourses?color=orange" alt="GitHub Stars"></a>, and <a href="https://github.com/FreedomIntelligence/TinyDeepSeek/stargazers" target="_blank">TinyDeepSeek <img src="https://img.shields.io/github/stars/FreedomIntelligence/TinyDeepSeek?color=orange" alt="GitHub Stars"></a>. I also share datasets and model weights from these projects on <a href="https://huggingface.co/wangrongsheng">🤗HuggingFace</a>.
+  I am Rui Cheng, currently a student/researcher at <a href="https://www.your-university.edu/" target="_blank" rel="noopener">Your University</a>. My research interests include multimodal learning, large language models, video understanding, and continual learning. My current work focuses on continual Video-MLLM adaptation over evolving domains, parameter-efficient adaptation, and expert routing mechanisms.
 
 show_portrait: true
-portrait_url: assets/images/photos/55651568.jpeg
+portrait_url: assets/images/photos/your_photo.jpg
 portrait_caption: >-
-  我是王荣胜，欢迎访问我的主页~
+  Hi, welcome to my homepage!
 
 education:
-- name: The Chinese University of Hong Kong, Shenzhen
-  logo: assets/images/badges/cuhk-sz.png
-  position: Ph.D. in Computational Biology and Health Informatics
-  date: Sep. 2025 - Now
-- name: Macao Polytechnic University
-  logo: assets/images/badges/mpu_master.png
-  position: M.S. in Big Data and Internet of Things
-  date: Sep. 2022 - Jul. 2024
-- name: Henan Polytechnic University
-  logo: assets/images/badges/hpu_bs.png
-  position: B.S. in Computer Science (AI)
-  date: Sep. 2018 - Jul. 2022
-  
-experience:
-- name: CUHK (SZ)
-  logo: assets/images/badges/cuhk-sz.png
-  position: Research Assistant (Supervisor is <a href="https://wabyking.github.io/old.html">Benyou Wang</a>)
-  date: Sep. 2024 - Sep. 2025
-- name: Qiyuan.Tech
-  logo: assets/images/badges/qiyuan.png
-  position: CTO
-  date: Oct. 2023 - Now
-- name: HKUST (GZ) 
-  logo: assets/images/badges/hkust-gz.png
-  position: Research Assistant (Supervisor is <a href="https://web.archive.org/web/20240717103203/https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/BAI-Yun/yunbai">Yun Bai</a> and <a href="https://cee.rutgers.edu/xiang-liu">Xiang Liu</a>)
-  date: Feb. 2024 -	May 2024
+- name: Your University
+  logo: assets/images/badges/your_school.png
+  position: M.S. / Ph.D. in Your Major
+  date: Sep. 202X - Now
+- name: Your Previous University
+  logo: assets/images/badges/your_previous_school.png
+  position: B.S. in Your Major
+  date: Sep. 20XX - Jul. 20XX
 
+experience:
+- name: Your Lab / Institution
+  logo: assets/images/badges/your_lab.png
+  position: Research Intern / Research Assistant
+  date: 20XX - Now
 
 awards:
-- name: 🥈Second Prize of Yidu Healthcare Hackathon
-  date: 2025
-- name: 🥇First Prize of LIC 2025
-  date: 2025
-- name: 🎫Kaggle Competitions Expert
-  date: 2025
-- name: 🥇Gold Medal of Kaggle AI Mathematical Olympiad - Progress Prize 2
-  date: 2025
-- name: 🎫Outstanding Award of JingDong Health - Global AI Innovation Competition
-  date: 2024
-- name: 🥇First Prize of Baidu PaddlePaddle AGI Hackathon
-  date: 2024
-- name: 🥉Third Prize of DiMTAIC (Organized by JingDong Health)
-  date: 2023
-- name: 🥉Third Prize of Baichuan Intelligence and Amazon Cloud AGI Hackathon
-  date: 2023
-- name: 🥈Silver Medal of Kaggle RSNA Screening Mammography Cancer Detection
-  date: 2023
-- name: 🎫Outstanding Award of IEEE UV 2022 Object Detection Challenge
-  date: 2022
+- name: Your Award 1
+  date: 202X
+- name: Your Award 2
+  date: 202X
 
 service:
-- name: Reviewer of <a href="https://www.embs.org/jbhi/">Journal of Biomedical and Health Informatics (JBHI)</a>
-- name: Reviewer of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42">IEEE Transactions on Medical Imaging (TMI)</a>
-- name: Reviewer of <a href="https://2025.ieeeicme.org/">ICME 2025</a>
+- name: ""
 
-# Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
-# if you keep the link to the template so that more people can benefit from it. Thanks!
 footer_text: >-
-  Copyright © 2024 <a href="https://github.com/WangRongsheng" target="_blank">Rongsheng Wang</a>. All Rights Reserved.
+  Copyright © 2026 <a href="https://github.com/ChengRui310" target="_blank">Rui Cheng</a>. All Rights Reserved.
