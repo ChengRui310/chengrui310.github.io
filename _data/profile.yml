@@ -20,12 +20,12 @@ portrait_caption: "Profile photo placeholder"
 
 education:
   - name: Beijing University of Posts and Telecommunications
-    logo: ""
-    position: B.Eng. in Information and Communication Engineering
+    detail: Information and Communication Engineering
+    level: Undergraduate
     date: 2022 - 2026
   - name: Xi'an Tieyi High School
-    logo: ""
-    position: High School
+    detail: ""
+    level: High School
     date: 2016 - 2022
 
 experience: []
