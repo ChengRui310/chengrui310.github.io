@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/global.css">
     <!-- ICON -->
-    <link rel="shortcut icon" href="assets/images/etc/bitbug_favicon.ico" />
+    <link rel="shortcut icon" type="image/jpeg" href="assets/images/etc/rui-favicon.jpg" />
     <!-- Quote CSS-->
     <style>
         blockquote {
@@ -28,7 +28,7 @@
             max-width: 920px;
             width: 100%;
             position: relative;
-            quotes: "“" "”" "‘" "’";
+            quotes: "�? "�? "�? "�?;
         }
         blockquote:before {
             color: #3498db;
@@ -86,8 +86,7 @@
     <script>
     document.querySelectorAll('.speak-btn').forEach(btn => {
       btn.addEventListener('click', () => {
-        const name = btn.dataset.name; // 从 data-name 取名字
-        if (!('speechSynthesis' in window)) {
+        const name = btn.dataset.name; // �?data-name 取名�?        if (!('speechSynthesis' in window)) {
           alert('当前浏览器不支持语音朗读');
           return;
         }
@@ -100,3 +99,4 @@
   </script>
 </body>
 </html>
+
