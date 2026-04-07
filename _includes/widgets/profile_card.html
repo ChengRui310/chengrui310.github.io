@@ -5,11 +5,13 @@
         <div class="row align-items-start">
           <div class="col">
             <p class="h1 font-weight-normal">{{ site.data.profile.primary_name }} <small>{{ site.data.profile.secondary_name }}</small></p>
+            {% if site.data.profile.positions and site.data.profile.positions.size > 0 %}
             <p class="text-profile-position">
               {% for position in site.data.profile.positions %}
               {{ position }}<br/>
               {% endfor %}
             </p>
+            {% endif %}
             <p class="text-profile-bio">
               {{ site.data.profile.short_bio }}
             </p>
